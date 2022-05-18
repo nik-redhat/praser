@@ -4,6 +4,7 @@ import shutil
 import pprint
 import os
 import sys
+from pydriller import Repository
 
 repo = git.Repo('.')
 
@@ -63,3 +64,10 @@ if not repo.index.diff(None) and not repo.index.diff('HEAD'):
 
 for diff_added in repo.index.diff('HEAD~1'):
     print(diff_added)
+
+# for commit in Repository(".", only_in_branch='remotes/origin/usrc_updater', order='reverse').traverse_commits():
+#     print(commit.msg.split('\n')[1:])
+#     break
+
+# for m in commit.modified_files:
+#     print(m.diff_parsed['added'])
