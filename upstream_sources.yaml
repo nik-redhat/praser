@@ -2,12 +2,12 @@ git:
 - alias: noobaa-core
   automerge: 'yes'
   branch: 5.11
-  commit: 4ea978db9f97de067526160b55af56c288605640
+  commit: 4ea978db9f97de067526160b55af56c288sdsd05640
   url: https://github.com/noobaa/noobaa-core.git
 - alias: noobaa-operator
   automerge: 'yes'
   branch: 5.11
-  commit: 8d6f6d37bc708789e19cd51ab584a200bebc4ff9
+  commit: 8d6f6d37bc708789e19cd51ab584a20sdsdbc4ff9
   url: https://github.com/noobaa/noobaa-operator.git
 - alias: ceph-csi
   automerge: 'yes'
