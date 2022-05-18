@@ -2,7 +2,7 @@ git:
 - alias: noobaa-core
   automerge: 'yes'
   branch: 5.11
-  commit: 4ea978db9f97de067526160b55af56c2886053434
+  commit: 4ea978db9f97de067526160b55af56c288605640
   url: https://github.com/noobaa/noobaa-core.git
 - alias: noobaa-operator
   automerge: 'yes'
@@ -12,7 +12,7 @@ git:
 - alias: ceph-csi
   automerge: 'yes'
   branch: release-4.11
-  commit: 56cf5b8f5860b9a433136a6131db77a1c4119f43
+  commit: 56cf5b8f5860b9a433136a6131db77a1c41199b4
   url: https://github.com/red-hat-storage/ceph-csi
 - alias: ocs-operator
   automerge: 'yes'
@@ -69,4 +69,3 @@ git:
   branch: release-4.11
   commit: c69620f6086a6dfd0b790788ed2000455b2a8b5b
   url: https://github.com/red-hat-storage/kubernetes-csi-addons
-
